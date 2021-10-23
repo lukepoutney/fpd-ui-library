@@ -1,0 +1,7 @@
+*.mib
+*.dm3
+*.hdr
+*.pickle
+__pycache__
+.vscode
+test.bat

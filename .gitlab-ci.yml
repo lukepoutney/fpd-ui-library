@@ -1,0 +1,9 @@
+stages:
+  - test
+
+test:
+  image: python:3.7-alpine3.9
+  script:
+    - python3 -m pip install --user fpd
+    - python3 -V
+    - python3 fpdui/tests.py
